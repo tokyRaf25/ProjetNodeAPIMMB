@@ -1,5 +1,5 @@
 //Utilisateur.js est le "modèle mongoose", il est connecté à la base de données
-let Utilisateur = require("../model/Utilisateur.js");
+let Utilisateur = require("../model/utilisateur.js");
 var sha1 = require('node-sha1');
 
 // Récupérer tous les Utilisateurs (GET), AVEC PAGINATION
